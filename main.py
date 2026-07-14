@@ -116,4 +116,8 @@ else:
 
 if __name__ == "__main__":
     init_db()
+<<<<<<< HEAD
     uvicorn.run(app, host="0.0.0.0", port=3000)
+=======
+    uvicorn.run(app, host="0.0.0.0", port=3001)
+>>>>>>> f75302d00558f48d9b9258e931727f1bbc939923

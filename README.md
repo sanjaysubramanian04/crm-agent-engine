@@ -29,9 +29,15 @@ A high-performance, AI-driven CRM module for clinical interaction tracking. Buil
 
 ## 💡 Design Principles
 
+<<<<<<< HEAD
 - **No Hard Coding**: The UI state is exclusively driven by dynamic AI tool outputs.
 - **Atomic Data Handling**: Full interaction context, including Next Best Action, is captured in a single-turn state transition.
 - **Resilient Architecture**: Includes structured state management and exponential backoff for API reliability.
+=======
+- **Full-Stack Routing**: Uses a `vercel.json` configuration to seamlessly route `/api` traffic to the Python backend while serving the React frontend as static assets.
+- **Proxy Configuration**: The Vite development server is configured to proxy API requests to `localhost:3001`, enabling concurrent frontend/backend development.
+- **Atomic Data Handling**: Full interaction context, including Next Best Action, is captured in a single-turn state transition.
+>>>>>>> f75302d00558f48d9b9258e931727f1bbc939923
 
 ## ⚙️ Local Setup Instructions
 
