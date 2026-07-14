@@ -2,7 +2,6 @@
 
 A high-performance, AI-driven CRM module for clinical interaction tracking. Built with a focus on modularity, persistent data integrity, and autonomous agentic workflows using LangGraph and Groq.
 
-**🌐 Live Demo:** [ai-crm-hcp.vercel.app](https://ai-crm-hcp.vercel.app)
 
 ## 🚀 Key Features
 
@@ -61,14 +60,6 @@ A high-performance, AI-driven CRM module for clinical interaction tracking. Buil
     ```bash
     npm run dev
     ```
-
-## 🌐 Vercel Deployment
-
-This project is optimized for deployment on **Vercel**.
-
-1.  **Connect Repository**: Connect your GitHub/GitLab repo to Vercel.
-2.  **Environment Variables**: Add your `GROQ_API_KEY` and `DATABASE_URL` in the Vercel project settings.
-3.  **Build Settings**: Vercel will automatically detect the Vite build for the frontend. For the Python backend, ensure your routes are configured correctly in `vercel.json` if using a monorepo structure.
 
 ## 📡 API Documentation
 
