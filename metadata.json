@@ -1,0 +1,6 @@
+{
+  "name": "HCP Interaction Assistant",
+  "description": "Split-screen HCP interaction logger with LangGraph-powered AI assistant for automated form entry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
